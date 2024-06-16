@@ -1,0 +1,38 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0071ce;
+  padding: 10px 20px;
+  color: white;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.location {
+  font-size: 14px;
+}
+
+.navbar-center {
+  flex-grow: 1;
+}
+
+.navbar-right button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  background-color: #0056a3;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

@@ -1,0 +1,53 @@
+/* src/components/Home.css */
+.shop-now-button {
+    background-color: #0071dc;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .shop-now-button:hover {
+    background-color: #005bb5;
+  }
+  
+  .edit-button, .remove-button {
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .edit-button:hover, .remove-button:hover {
+    background-color: darkorange;
+  }
+  
+  .confirm-button {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .confirm-button:hover {
+    background-color: darkgreen;
+  }
+  
+  .clear-button {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .clear-button:hover {
+    background-color: darkred;
+  }
+   
