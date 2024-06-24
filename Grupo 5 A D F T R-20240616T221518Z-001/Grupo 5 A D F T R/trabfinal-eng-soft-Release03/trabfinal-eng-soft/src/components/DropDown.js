@@ -26,6 +26,7 @@ const DropDown = () => {
             <Link to="/products">Produtos</Link>
             <Link to="/notafiscal">Nota Fiscal</Link>
             <Link to="/estoque">Estoque</Link>
+            <Link to="/reports">Relatórios</Link>
           </div>
         )}
       </div>
@@ -34,7 +35,6 @@ const DropDown = () => {
 }
 
 export default DropDown;
-
 
 
 
