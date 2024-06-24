@@ -8,7 +8,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-left">
         <Link to="/" className="logo">Walmart</Link>
-        <div className="location">Sacramento, 95829</div>
+        <div className="location">Itajubá, MG</div>
       </div>
       <div className="navbar-center">
         <DropDown />
@@ -23,7 +23,6 @@ const Navbar = () => {
 }
 
 export default Navbar;
-
 
 
 
