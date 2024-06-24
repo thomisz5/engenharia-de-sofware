@@ -1,3 +1,4 @@
+export default App;
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
@@ -6,6 +7,7 @@ import Users from './components/Users';
 import Products from './components/Products';
 import NotaFiscal from './components/NotaFiscal';
 import Estoque from './components/Estoque';
+import Reports from './components/Reports';
 
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
           <Route path= '/products' element={<Products/>} />
           <Route path= '/notafiscal' element={<NotaFiscal/>} />
           <Route path= '/estoque' element={<Estoque/>} />
+          <Route path= '/reports' element={<Reports/>} />
         </Routes>
       </div>
     </Router>
@@ -25,5 +28,7 @@ function App() {
 }
 
 export default App;
+
+
 
 
