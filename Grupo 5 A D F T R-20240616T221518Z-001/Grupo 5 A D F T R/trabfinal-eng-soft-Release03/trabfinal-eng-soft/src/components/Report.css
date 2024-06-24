@@ -1,0 +1,54 @@
+.reports {
+  padding: 20px;
+  text-align: center;
+}
+
+.reports div {
+  margin-bottom: 20px;
+}
+
+.reports label {
+  margin-right: 10px;
+}
+
+.reports select, .reports input {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.reports button {
+  padding: 10px 20px;
+  background-color: #0071dc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.reports button:hover {
+  background-color: #005bb5;
+}
+
+.reports table {
+  margin-top: 20px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.reports th, .reports td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: left;
+}
+
+.relatorio {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  margin-bottom: 20px;
+}
+
+.conteudo {
+  text-align: center;
+}
